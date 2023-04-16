@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@angular/cli": "^15.2.6",
+    "g": "^2.0.1",
+    "global": "^4.4.0"
+  }
+}
