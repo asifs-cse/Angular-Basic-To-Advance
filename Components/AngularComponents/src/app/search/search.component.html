@@ -1,5 +1,6 @@
 <div class="search-div">
     <span><b>Search</b></span>
-    <input type="text" (input)="changleSearchValue($event)">
+    <!-- <input type="text" (input)="changleSearchValue($event)"> -->
+    <input type="text" [(ngModel)]="searchValue">
     <p><span>You searched for: {{searchValue}}</span></p>
 </div>
