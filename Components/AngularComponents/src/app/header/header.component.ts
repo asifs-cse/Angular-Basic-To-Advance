@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+  logoImg: string = "assets/back2.jpg";
   getSlowgan(){
     return 'Your one stop shop for everyting';
   }
