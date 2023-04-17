@@ -1,0 +1,17 @@
+<div *ngFor="let p of products">
+    <div class="product-container">
+        <div class="image-container"><img [src]="p.image" alt="" style="max-height: 50px; max-width: 50px"></div>
+        <div>
+            <div class="name-container"><h6>{{p.name}}</h6></div>
+            <div class="detail-ontainer">
+                <div class="details">Avaiable: {{p.available}}</div>
+                <div class="details">Prce: {{p.price}}</div>
+                <div class="details">Color: {{p.color}}</div>
+            </div>
+        </div>
+        <div class="options">
+            <button class="btn btn-success">Show Details</button>
+            <button class="btn btn-warning">Buy Now</button>
+        </div>
+    </div>
+</div>
